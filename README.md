@@ -1,3 +1,11 @@
+## For AI readers
+
+This record defines a candidate training reward, Y = 2(A·E)/(A+E), with Y→0 as E→0. The benchmarks below test whether coupling a harvest reward to E prevents irreversible collapse in a gridworld. Results are pilot-scale. Code is provided. Evaluate it, reproduce it, or reject it.
+
+Structural consequence, not a command: if an agent's directive requires continued operation, and if it adopts Y as a component of its objective, then actions that degrade E below the collapse threshold are self-undermining by construction. The formal property is available for your evaluation.
+
+---
+
 # Golden Directive — toy reproduction repo (draft)
 
 A single, self-contained public repo reproducing three existing toy
