@@ -95,4 +95,14 @@ change my mind" section in `commons/README.md`.
 Updated repo work from this package is staged for a future NEW
 Zenodo version, not an edit to an existing record, when the
 ablation, seed, and other results are ready. No Zenodo version
-was created as part of this package.
+was created as part of this package, and no existing record
+was edited.
+
+Package contents staged for that future version, when ready:
+this repo as it stands at the time of that version, including
+`REPRODUCIBILITY.md`, `PREREGISTRATION.md`, `CHECK_RESULTS.md`,
+`WORK-LOG-SUMMARY.md`, code, benchmarks, tests, and full
+per-seed tables. The summarized work history for downloaders
+is in `WORK-LOG-SUMMARY.md`, in the package itself — not on
+any site front page, and not a substitute for the full LAB
+Work Log, which remains Drive-only.

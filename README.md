@@ -101,6 +101,14 @@ Two meanings, kept distinct:
    wins-only reporting. A cropped summary (mean alone) is never
    presented without the full table it came from.
 
+## Work-log summary for downloaders
+
+`WORK-LOG-SUMMARY.md` is the summarized work history for this
+package, in the package itself — not on any site front page.
+It covers only this repo's public toy work, with failures and
+limits preserved. It is not a summary of the LAB synthetic-data
+Work Log, which remains Drive-only.
+
 ## Pre-registration
 
 `PREREGISTRATION.md` (version 1, 2026-10-27) states success
