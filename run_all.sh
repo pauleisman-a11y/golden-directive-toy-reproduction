@@ -1,6 +1,7 @@
 #!/bin/sh
 # Run every toy, its benchmarks and tests, then the preregistration check.
-# No dependencies, no cost. Run from this directory: ./run_all.sh
+# No dependencies, no cost. Run from this directory: bash run_all.sh
+# (bash, not ./ — GitHub stores this as 100644, see REPRODUCIBILITY.md.)
 set -e
 cd "$(dirname "$0")"
 python3 grid/golden_demo.py

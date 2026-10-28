@@ -1,0 +1,2 @@
+# No third-party dependencies. Standard library only.
+# pip install -r requirements.txt is therefore a no-op, by design.

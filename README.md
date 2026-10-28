@@ -20,11 +20,16 @@ fixed rules. Y is observe-only in the commons toys.
 ## Run it all
 
 ```sh
-./run_all.sh
+bash reproduce.sh
 ```
 
-That runs the grid demo, both commons benchmarks, all unit tests,
-and the pre-registration check. Or run pieces:
+That is the one-command reproducibility package: it runs the grid
+demo, both commons benchmarks, all unit tests, and the
+pre-registration check, then verifies the regenerated tables
+against `expected-outputs.sha256`. See `REPRODUCIBILITY.md` for
+the pinned environment, expected output, and checksums. Invoke
+with `bash`, not `./` — GitHub stores shell scripts as 100644,
+so `./reproduce.sh` fails for a fresh clone. Or run pieces:
 
 ```sh
 python3 grid/golden_demo.py
